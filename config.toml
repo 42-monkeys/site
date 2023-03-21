@@ -1,0 +1,20 @@
+baseURL = 'https://42monkeys.eu/'
+languageCode = 'en-us'
+title = '42 Monkeys'
+theme = "freelancer"
+
+[params]
+  tagLine = "The devs you were looking for!"
+  homePosts = 0
+  homeProjects = 0
+
+[related]
+  includeNewer = false
+  threshold = 80
+  toLower = false
+[[related.indices]]
+  name = 'tags'
+  weight = 100
+[[related.indices]]
+  name = 'date'
+  weight = 10
